@@ -1,0 +1,11 @@
+<svg id="calender" xmlns="http://www.w3.org/2000/svg" width="22.059" height="22.749" viewBox="0 0 22.059 22.749">
+  <g id="Group_5" data-name="Group 5" transform="translate(0)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="1.098" cy="1.098" r="1.098" transform="translate(3.929 15.942)" fill="#010002"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="1.098" cy="1.098" r="1.098" transform="translate(7.955 15.942)" fill="#010002"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="1.098" cy="1.098" r="1.098" transform="translate(11.907 15.942)" fill="#010002"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="1.098" cy="1.098" r="1.098" transform="translate(16.299 15.942)" fill="#010002"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="1.098" cy="1.098" r="1.098" transform="translate(11.907 12.209)" fill="#010002"/>
+    <path id="Path_6" data-name="Path 6" d="M25.025,2.2h-.137a2.2,2.2,0,0,0-4.392,0H14.714a2.2,2.2,0,0,0-4.392,0h-.5A3.426,3.426,0,0,0,6.393,5.621v13.7a3.424,3.424,0,0,0,3.425,3.425H25.025a3.427,3.427,0,0,0,3.427-3.425V5.621A3.429,3.429,0,0,0,25.025,2.2Zm1.127,17.066a1.026,1.026,0,0,1-1.024,1.025H9.859a1.027,1.027,0,0,1-1.025-1.025V10.415H26.152Z" transform="translate(-6.393)" fill="#010002"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="1.098" cy="1.098" r="1.098" transform="translate(16.299 12.209)" fill="#010002"/>
+  </g>
+</svg>
