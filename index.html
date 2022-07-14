@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Guide</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- date-picker -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Judson&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="navigation">
+
+            <img class="logo" src="images/logo.png" alt="logo mister guide">
+            
+           
+
+            <div class="nav"></div>
+                <div class="nav-city">
+                    <button onclick="myFunction()" class="dropbtn">
+                        <div class="nav">
+                            <h3>Destination</h3>
+                            <div class="clear"></div>
+                            <hr>
+                            <p>Browse By Location</p>
+                            <img src="images/arrow.svg">
+                        </div>
+                    </button>
+                    <div id="myDropdown" class="dropdown">
+                        <div class="dropdown-city">
+                            <p id="city1">Maastricht</p>
+                            <hr>
+                            <p id="city2">Aachen</p>
+                            <hr>
+                            <p id="city3">London</p>
+                            <hr>
+                            <p id="city4">Lissabon</p>
+                            <hr>
+                            <p id="city5">Schimmert</p>
+                            <hr>
+                            <p id="city6">RotjeKnor</p>
+                            <hr>
+                            <p id="city7">Dublin</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="nav-feature">
+                    <button onclick="myFunction2()" class="dropbtn-2">
+                        <div class="nav">
+                            <h3>Featured Tours</h3>
+                            <div class="clear"></div>
+                            <hr>
+                            <p>Browse By Type</p>
+                            <img src="images/arrow.svg">
+                            <div class="clear"></div>
+                        </div>
+                    </button>
+                    <div id="myDropdown-2" class="dropdown">
+                        <div class="dropdown-tour">
+                            <p>Guided Tour</p>
+                            <hr>
+                            <p>Group Tour</p>
+                            <hr>
+                            <p>Couples</p>
+                            <hr>
+                            <p>Audio Tours</p>
+                            <hr>
+                            <p>Boat Tours</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="clear"></div>
+        
+
+        <div class="background-maastricht"></div>
+
+        <h1 class="title-maastricht">MAASTRICHT</h1>
+
+        <div class="white-block">
+
+            <div class="black-block">
+                <h2 class="book-a-guide">Book a guide in Maastricht</h2>
+            </div>
+
+        <div class="date-picker">
+
+                <p class="text-date">Date </p>
+
+                <div class="clear"></div>
+
+                <hr>
+                <div class="clear"></div>
+
+                <input type="text" id="datepicker">
+                
+
+            </div>
+
+            <div class="time-picker-class">
+
+                <legend class="text-time-picker">
+                    Starting Time
+                </legend>
+
+            <hr>
+
+                <input class="box-time-picker" type="time" name="time">
+                <div class="clear"></div>
+
+                <form class="time-picker" action="#">
+                </form>
+
+                <div class="clear"></div>
+            </div>
+
+            <!-- Pop-up -->
+
+            <button class="trigger">Find your guide</button>
+            <div class="clear"></div>
+            
+            <p class="match">We'll choose the best match for you</p>
+
+            <div class="clear"></div>
+
+            <div   class="modal">
+
+                <div class="modal-content">
+
+                    <span class="close-button">&times;</span>
+
+                <img class="popup-logo" src="images/logo-yellow.svg" alt="yellow logo">
+
+                <div class="clear"></div>
+
+                <h3 class="title-popup">WE FOUND A MATCH!</h3>
+
+                <p class="text-popup">We fount the perfect guides for your city!
+                    Best yet, the guides are available for you at your time. 
+                    Let's get you in touch now.</p>
+
+                    <div class="clear"></div>
+
+                        <div class="popup-slider">
+                            <div class="slider">
+                                <div class="clear"></div>
+                                <img src="images/hugo-marcus.jpg" alt="Picture of male guide">
+                                <h5>Hugo Marcus</h5>
+                                <p>+6 years tour guide experience</p>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="slider">
+                                <div class="clear"></div>
+                                <img src="images/maria.jpg" alt="Picture of male guide">
+                                <h5>Maria Miose</h5>
+                                <p>+7 years tour guide experience</p>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="slider">
+                                <div class="clear"></div>
+                                <img src="images/hugo-marcus.jpg" alt="Picture of male guide">
+                                <h5>Hugo Marcus</h5>
+                                <p>+6 years tour guide experience</p>
+                                <div class="clear"></div>
+                            </div>
+                     
+                        </div>                    
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+        <div class="yellow-block">
+
+            <h2 class="start-exploring-title">START EXPLORING TODAY</h2>
+
+            <h3 class="start-exploring-text">Mister guide offers a great way to tour a city.
+                Book a guide right now Aenean lacinia bibendum nulla sed consectetur.
+                Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.</h3>
+            <div class="clear"></div>
+
+        </div>
+
+        <img class="line-1" src="images/dots-1.svg" alt="stippellijn 1">
+
+        <div class="clear"></div>
+
+        <h3 class="guided-tour">Looking for a guided tour? Sightseeing in</h3>
+
+        <h2 class="maastricht-guided-tour">MAASTRICHT</h2>
+
+        <div class="carousel">
+
+            <img src="images/stadhuis.jpg" alt="toren stadhuis">
+
+            <img src="images/tourist.jpg" alt="vrouw">
+
+            <img src="images/wit-huis.jpg" alt="witte huis">
+
+            <img src="images/brug.jpg" alt="brug">
+        </div>
+
+        <div class="line-2">
+            <img src="images/line-2.svg" alt="stippellijn 2">
+
+        </div>
+
+        <h2 class="smiles">LOOK AT ALL THOSE HAPPY SMILES</h2>
+
+        <p class="follow-mister-guide">Follow Mister Guide around the globe</p>
+
+
+<!-- video player -->
+
+<article class="video-playlist">
+        <div class="video-player">           
+        <video id="video" muted loop>
+            <source src="images/videos/luchtballon.mp4" type="video/mp4" id="source">
+            <source src="images/videos/mountains.mp4" type="video/mp4" id="source">
+            <source src="images/videos/motor.mp4" type="video/mp4" id="source">
+            <source src="images/videos/airplane.mp4" type="video/mp4" id="source">
+        </video>
+
+        <div class="skip-button">
+            <button id="skipper" class="skip-btn">
+                <img src="images/10-sec-forward.svg">
+            </button>
+        </div>
+ 
+        <div class="video-buttons">
+
+            <button class="button-1" >
+                <div class="button-vid">
+                <p> Maastricht</p>  
+                <img id="play-video1" src="images/play-button.svg" alt="play button">
+                <div class="clear"></div>
+            </div>
+            </button>
+
+            <button class="button-2">
+                <div class="button-vid">
+                <p>Aachen</p> 
+                <img id="play-video2" src="images/play-button.svg" alt="play button">
+                <div class="clear"></div>
+            </div>
+            </button>
+
+            <button class="button-3">
+                <div class="button-vid">
+                <p>Schimmert</p> 
+                <img id="play-video3" src="images/play-button.svg" alt="play button">
+                <div class="clear"></div>
+            </div>
+            </button>
+
+            <button id="vb4" class="button-4">
+                <div class="button-vid">
+                <p>New York</p> 
+                <img id="play-video4" src="images/play-button.svg" alt="play button">
+                <div class="clear"></div>
+            </div>
+            </button>
+        </div>
+    </div>
+
+</article>
+    </main>
+
+    <footer>
+
+        <div class="black-footer">
+               <p class="help">Need some help finding the perfect tour?</p>
+            <div class="clear"></div>
+            <h2 class="contact-mr">CONTACT MR. GUIDE</h2>
+
+            <img class="logo-footer" src="images/logo-smile.svg" alt="logo face">
+
+            <div class="clear"></div>
+
+                <a href="#" class="phone-number">
+                    <p> 9100-555-555</p>
+
+                    <img class="phone-icon" src="images/phone.svg" alt="phone-icon">
+
+                    <div class="clear"></div>
+
+                </a>
+
+                <a href="#" class="mail">
+                    <p> send us a mail </p>
+                </a>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- javascript -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <script src="js/sketch.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+</body>
+
+</html>
